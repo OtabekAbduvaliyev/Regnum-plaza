@@ -39,7 +39,7 @@ const HouseMeasure = () => {
     <div className="bg-[#F6F6F4] mt-[54px]">
       <div className="flex flex-col px-[10px] py-[65px] sm:px-[30px] md:px-[20px] lg:px-[70px] xl:flex-row xl:items-center xl:gap-[60px] justify-between 2xl:px-[110px] 2xl:gap-[0px]">
         <div className="infsection">
-          <h1 className="text-[40px] font-golos font-[600]">Hovli Maydoni</h1>
+          <h1 className="text-[40px] font-golos font-[600] 2xl:text-[48px]">Hovli Maydoni</h1>
           <div className="levelButons bg-white p-[4px] inline-flex rounded-[50px] mt-[32px]">
             <button
               className={`px-[18px] py-[8px] sm:px-[24px] sm:py-[12px] ${
