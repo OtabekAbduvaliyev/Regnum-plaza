@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.bgHeader {
+    background-image: 
+        linear-gradient(
+            rgba(0, 0, 0, 0.56), 
+            rgba(0, 0, 0, 0.24)
+        ),
+        url(./assets/1ed39b1907fd9f09f558fa9124e706c3.png);
+    background-position: center;
+    background-size: cover; /* Ensures the image covers the entire element */
+    height: 100vh;
+}
