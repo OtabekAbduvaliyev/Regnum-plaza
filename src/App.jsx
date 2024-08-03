@@ -2,6 +2,7 @@ import AboutBuilders from "./Components/About Builders/AboutBuilders.jsx"
 import AboutProject from "./Components/About Project/AboutProject.jsx"
 import Architectular from "./Components/Architecttural/Architectular.jsx"
 import BuildingProgress from "./Components/Building Progress/BuildingProgress.jsx"
+import Footer from "./Components/Footer/Footer.jsx"
 import Form from "./Components/Form/Form.jsx"
 import Header from "./Components/Header/Header.jsx"
 import HouseMeasure from "./Components/House Measure/HouseMeasure.jsx"
@@ -24,6 +25,7 @@ function App() {
   <Form />
   <BuildingProgress />
   <AboutBuilders />
+  <Footer />
     </>
   )
 }
