@@ -3,15 +3,15 @@ import houseImg from "../../assets/e09914331a350cbd6a68779594d2297e.png";
 const Form = () => {
   return (
     <div className="pt-[64px] px-[10px] sm:px-[30px] md:px-[40px] lg:px-[70px]">
-      <div className="border border-1 gap-[64px] rounded rounded-[10px] flex flex-col xl:flex-row xl:items-center 2xl:justify-between pb-[10px] xl:pb-[0px]">
+      <div className="border border-1 xl:gap-[64px] rounded rounded-[10px] flex flex-col xl:flex-row xl:items-center 2xl:justify-between pb-[10px] xl:pb-[0px]">
         <div className="xl:w-[773px] xl:max-h-[450px] 2xl:w-[900px]">
           <img
             src={houseImg}
             alt=""
-            className="rounded-t-[10px] xl:rounded-l-[10px] xl:rounded-r-[0px] w-[100%] xl:h-[360px] 2xl:h-[100%]"
+            className="rounded-t-[10px] xl:rounded-l-[10px] xl:rounded-r-[0px] w-[100%] xl:h-[368px] 2xl:h-[100%]"
           />
         </div>
-        <div className="pl-[20px]">
+        <div className="pl-[20px] xl:pl-[0px] pb-[10px]">
           <h1 className="text-[28px] font-golos font-[600] mt-[30px] sm:text-[32px] xl:text-[28px] 2xl:text-[32px]">
             Mutaxassis maslahati
           </h1>
@@ -51,6 +51,7 @@ const Form = () => {
                 required
               />
             </div>
+          </div>
             <div className="check flex items-center gap-[8px] font-golos mt-[24px] font-[500]">
               <input type="checkbox" className="w-[24px] h-[24px]" required />
               <p>Shaxsiy ma‘lumotlarim qayta ishlanishiga roziman</p>
@@ -60,7 +61,6 @@ const Form = () => {
                 Jo'natish
               </button>
             </div>
-          </div>
         </div>
       </div>
     </div>
