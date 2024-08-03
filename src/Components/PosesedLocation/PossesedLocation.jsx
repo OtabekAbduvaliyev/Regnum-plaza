@@ -4,7 +4,7 @@ import feedbackImg from '../../assets/Frame 241.png'
 import houseImg from '../../assets/Group 46778.png'
 const PossesedLocation = () => {
   return (
-    <div className='px-[10px] sm:px-[30px] md:px-[40px] lg:px-[60px] lg:flex lg:gap-[50px] 2xl:px-[110px] pb-[144px]'>
+    <div className='px-[10px] sm:px-[30px] md:px-[40px] lg:px-[60px] lg:flex lg:gap-[50px] 2xl:px-[110px] pb-[144px]' id='place'>
         <div className="ujeImg">
             <img src={houseImg} alt="" />
         </div>

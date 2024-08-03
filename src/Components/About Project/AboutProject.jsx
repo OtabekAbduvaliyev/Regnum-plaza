@@ -6,11 +6,11 @@ import houseImg from '../../assets/Frame 153.png'
 import cardImg from '../../assets/Frame 234.png'
 const AboutProject = () => {
   return (
-    <div className='px-[10px] sm:px-[20px] md:px-[30px] lg:px-[70px] lg:gap-[50px] grid grid-cols-1 xl:grid-cols-2  justify-between 2xl:px-[110px]'>
+    <div id='aboutproject' className='px-[10px] sm:px-[20px] md:px-[30px] lg:px-[70px] lg:gap-[50px] grid grid-cols-1 xl:grid-cols-2  justify-between 2xl:px-[110px]'>
         <div className="projectInf pt-[64px]  ">
             <div className="projectInfText">
                 <h1 className='text-[40px] font-golos font-[600]'>Loyiha haqida</h1>
-                <p className='font-golos text-[16px] mt-[16px] text-[#505050]'>NRG Qorasuvda hammasi ajoyib! Joylashgan o'rnidan boshlab, xonadonlarni joylashtirish tartibi, xavfsiz hudud va turarjoy majmuasining bolg'usi aholisi uchun parkovkalarning mavjudligigacha puxta o'ylangan. <br /><br />
+                <p className='font-golos text-[16px] mt-[16px] text-[#505050] max-w-[686px]'>NRG Qorasuvda hammasi ajoyib! Joylashgan o'rnidan boshlab, xonadonlarni joylashtirish tartibi, xavfsiz hudud va turarjoy majmuasining bolg'usi aholisi uchun parkovkalarning mavjudligigacha puxta o'ylangan. <br /><br />
                 NRG Qorasuvda hammasi ajoyib! Joylashgan o'rnidan boshlab, xonadonlarni joylashtirish tartibi, xavfsiz hudud va turarjoy majmuasining bolg'usi aholisi uchun parkovkalarning mavjudligigacha puxta o'ylangan.
                 </p>
             </div>
@@ -43,7 +43,7 @@ const AboutProject = () => {
         </div>
         <div className="projectImg ml-auto mt-[50px]">
             <img src={houseImg} alt="" />
-            <img src={cardImg} alt="" className='mt-[-100px] lg:ml-[-100px] 2xl:mt-[-250px] 2xl:ml-[-200px]'/>
+            <img src={cardImg} alt="" className='mt-[-100px] lg:ml-[-100px] 2xl:mt-[-250px] 2xl:ml-[-150px]'/>
         </div>
     </div>
   )

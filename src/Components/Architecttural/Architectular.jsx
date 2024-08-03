@@ -6,7 +6,7 @@ const Architectular = () => {
       setChange(!change);
     };
   return (
-    <div className='px-[10px] pt-[64px] md:px-[30px] lg:px-[70px] 2xl:px-[110px]'>
+    <div className='px-[10px] pt-[64px] md:px-[30px] lg:px-[70px] 2xl:px-[110px]' id='xollar'>
         <div className="controllSection text-center lg:flex items-center justify-between">
             <h1 className='text-[35px] font-golos font-[600] sm:text-center 2xl:text-[48px]'>Xonadonlarning o‘ylangan rejalari</h1>
             <div className="buttons bg-[#F6F6F4] inline-flex rounded-[32px] p-[2px] mt-[20px] lg:mt-[0px]">

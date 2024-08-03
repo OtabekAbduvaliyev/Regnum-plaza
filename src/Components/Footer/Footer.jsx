@@ -7,7 +7,7 @@ import { FiYoutube } from "react-icons/fi";
 
 const Footer = () => {
   return (
-    <div className="bg-[#384D8B] text-[white]">
+    <div className="bg-[#384D8B] text-[white] " id="contact">
       <div className="font-golos flex flex-col py-[30px] px-[10px] sm:px-[30px] md:px-[50px] xl:px-[70px] 2xl:px-[110px] lg:flex-row justify-between">
         <div className="flex-1">
           <h1 className="font-[600] text-[32px]">Bog'lanish</h1>
