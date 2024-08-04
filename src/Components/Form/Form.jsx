@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import houseImg from "../../assets/e09914331a350cbd6a68779594d2297e.png";
 import axios from "axios";
 import swal from "sweetalert";
-import PhoneInput from "react-phone-number-input";
 import ReactInputMask from "react-input-mask";
 const Form = () => {
   const [message, setMessage] = useState("");

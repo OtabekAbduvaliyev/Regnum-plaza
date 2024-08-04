@@ -73,7 +73,7 @@ const Navbar = () => {
                     </select>
                     <div className="phonenumber flex items-center text-white gap-[4px] hover:text-[#5181B8] transition-all duration-1000">
                         <TbPhoneCall className='text-[20px] sm:text-[24px]' />
-                        <h1 className='text-[20px] sm:text-[24px] font-[600] '><a target='_blank' href="https://zoom.us/">1066</a> </h1>
+                        <h1 className='text-[20px] sm:text-[24px] font-[600] '><a href="tel://1066">1066</a> </h1>
                     </div>
 
                     <div>
