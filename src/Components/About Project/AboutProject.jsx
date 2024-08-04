@@ -42,8 +42,9 @@ const AboutProject = () => {
             </div>
         </div>
         <div className="projectImg ml-auto mt-[50px]">
-            <img src={houseImg} alt="" />
-            <img src={cardImg} alt="" className='mt-[-100px] lg:ml-[-100px] 2xl:mt-[-250px] 2xl:ml-[-150px]'/>
+            <img src={houseImg} alt="" /><a target='_blank' href="https://www.google.com/maps/place/Regnum+plaza%2FPlatinum+house/@41.3315456,69.3216545,17.41z/data=!4m6!3m5!1s0x38aef5aa65329b4d:0xf131613fc9d2627c!8m2!3d41.3313601!4d69.3237459!16s%2Fg%2F11svls15bs?entry=ttu">
+            <img src={cardImg} alt="" className='mt-[-100px] lg:ml-[-100px] 2xl:mt-[-250px] 2xl:ml-[-150px]' />
+            </a>
         </div>
     </div>
   )
