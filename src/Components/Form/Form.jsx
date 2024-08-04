@@ -82,7 +82,7 @@ const Form = () => {
               </label>
               <ReactInputMask
               maskChar={'_'}
-                mask={`+\\9\\98 999 99 99`}
+                mask={`+\\9\\98 99 999 99 99`}
                 value={phoneNumber}
                 onChange={(e) => setPhoneNumber(e.target.value)}
                 
