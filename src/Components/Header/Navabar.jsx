@@ -129,12 +129,12 @@ const Navbar = () => {
         )}
       </div>
       <div
-        className={`fixed navbar top-0 left-0 z-[998] w-[100%] bg-transparent xl:py-[8px] transition-all duration-500 navbg ${
+        className={`fixed navbar top-0 left-0 z-[998] w-[100%] bg-transparent xl:py-[8px] transition-all duration-500 ${
           visible ? "translate-y-0" : "-translate-y-full"
         } ${
           !scroll
             ? "bg-transparent"
-            : "backdrop-blur bg-filter  border border-b-1 border-b-custom-gold border-l-0 border-r-0 border-t-0 "
+            : "backdrop-blur bg-filter  border border-b-1 border-b-custom-gold border-l-0 border-r-0 border-t-0 navbg "
         }`}
       >
         <nav
