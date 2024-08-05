@@ -134,7 +134,7 @@ const Navbar = () => {
         } ${
           !scroll
             ? "bg-transparent"
-            : "backdrop-blur  border border-b-1 border-b-custom-gold border-l-0 border-r-0 border-t-0 bg-gray-500/30"
+            : "backdrop-blur  border border-b-1 border-b-custom-gold border-l-0 border-r-0 border-t-0 bg-gray-500"
         }`}
       >
         <nav
