@@ -4,13 +4,16 @@ import { TbPhoneCall } from "react-icons/tb";
 import { GoDownload } from "react-icons/go";
 import { FaBars } from "react-icons/fa";
 import download from "../../Pdf/building typesList.pdf";
-
+import LanguageSelector from "../Language Selector/LanguageSelector";
+import { useTranslation } from 'react-i18next';
+import LanguageSelector2 from "../Language Selector/LanguageSelector2";
+import LanguageSelector3 from "../Language Selector/LanguageSelector3";
 const Navbar = () => {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
   const [visible, setVisible] = useState(true);
   const [scroll, setScroll] = useState(false);
   const [openMenu, setOpenMenu] = useState(false);
-
+  const { t } = useTranslation()
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY >= 20) {
@@ -61,7 +64,7 @@ const Navbar = () => {
                   className="hover:text-[#384D8B]"
                   onClick={handleOpenMenu}
                 >
-                  Loyiha haqida
+                   {t('aboutProject')}
                 </a>
               </li>
               <li>
@@ -110,21 +113,7 @@ const Navbar = () => {
                 </a>
               </li>
             </ul>
-            <select
-              name="language"
-              id="language"
-              className="inlineblock bg-transparent border-none text-white"
-            >
-              <option value="Uz" className="text-black">
-                O'zbek
-              </option>
-              <option value="Eng" className="text-black">
-                English
-              </option>
-              <option value="Ru" className="text-black">
-                Russian
-              </option>
-            </select>
+            <LanguageSelector3 />
           </div>
         )}
       </div>
@@ -155,7 +144,7 @@ const Navbar = () => {
                     href="#aboutproject"
                     className="transition-all duration-1000 border-b-[3px] border-transparent pb-[5px] hover:border-[#384D8B]"
                   >
-                    Loyiha haqida
+                   {t('aboutProject')}
                   </a>
                 </li>
                 <li>
@@ -200,25 +189,11 @@ const Navbar = () => {
                 </li>
               </ul>
 
-              <select
-                name="language-desktop"
-                id="language-desktop"
-                className="ml-5 bg-transparent border-none text-white"
-              >
-                <option value="Uz" className="text-black">
-                  O'zbek
-                </option>
-                <option value="Eng" className="text-black">
-                  English
-                </option>
-                <option value="Ru" className="text-black">
-                  Russian
-                </option>
-              </select>
+          <LanguageSelector />
             </div>
           </div>
           <div className="contact flex gap-[10px] sm:gap-[25px] md:gap-[40px] xl:gap-[10px] 2xl:gap-[30px] items-center">
-            <select
+            {/* <select
               name="language-mobile"
               id="language-mobile"
               className="lg:block hidden bg-transparent text-white xl:hidden 2xl:text-[18px]"
@@ -226,7 +201,8 @@ const Navbar = () => {
               <option value="Uz">O'zbek</option>
               <option value="Eng">English</option>
               <option value="Ru">Russian</option>
-            </select>
+            </select> */}
+            <LanguageSelector2 />
             <div className="phonenumber flex items-center text-white gap-[4px] hover:text-[#5181B8] transition-all duration-1000">
               <TbPhoneCall className="text-[20px] sm:text-[24px]" />
               <h1 className="text-[20px] sm:text-[24px] font-[600] ">
@@ -234,7 +210,7 @@ const Navbar = () => {
               </h1>
             </div>
 
-            <div>
+            <div className="flex items-center md:gap-[20px]">
               <a
                 href={download}
                 download={"presentation.pdf"}
