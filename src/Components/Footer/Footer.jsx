@@ -31,22 +31,22 @@ const Footer = () => {
           </div>
           <div className="phoneNumber mt-[32px]">
             <h1 className="text-[22px] font-[600]">Telefon:</h1>
-            <div className="flex items-center gap-[8px]">
+            <div className="flex items-center gap-[8px] cursor-pointer hover:text-[#5181B8] transition-all duration-700">
               <BiPhoneCall className="text-[30px]" />
-              <p className="font-[600] text-[28px]">1066</p>
+              <p className="font-[600] text-[28px] "><a href="tel://1066">1066</a></p>
             </div>
           </div>
           <div className="socialMedia flex gap-[5px] mt-[32px]">
-            <div className="w-[60px] h-[52px] bg-[#5181B8] rounded-[8px] flex items-center justify-center ">
+            <div className="w-[60px] h-[52px] bg-[#5181B8] rounded-[8px] flex items-center justify-center cursor-pointer hover:w-[65px] hover:h-[57px] transiton-all duration-700">
               <FaFacebookF className="m-auto  text-[28px]" />
             </div>
-            <div className="w-[60px] h-[52px] bg-[#5181B8] rounded-[8px] flex items-center justify-center ">
+            <div className="w-[60px] h-[52px] bg-[#5181B8] rounded-[8px] flex items-center justify-center cursor-pointer  hover:w-[65px] hover:h-[57px] transiton-all duration-700">
               <FaInstagram className="m-auto  text-[28px]" />
             </div>
-            <div className="w-[60px] h-[52px] bg-[#5181B8] rounded-[8px] flex items-center justify-center ">
+            <div className="w-[60px] h-[52px] bg-[#5181B8] rounded-[8px] flex items-center justify-center cursor-pointer  hover:w-[65px] hover:h-[57px] transiton-all duration-700">
               <BiLogoTelegram className="m-auto  text-[28px]" />
             </div>
-            <div className="w-[60px] h-[52px] bg-[#5181B8] rounded-[8px] flex items-center justify-center ">
+            <div className="w-[60px] h-[52px] bg-[#5181B8] rounded-[8px] flex items-center justify-center cursor-pointer  hover:w-[65px] hover:h-[57px] transiton-all duration-700">
               <FiYoutube className="m-auto  text-[28px]" />
             </div>
           </div>
