@@ -50,7 +50,7 @@ const Footer = () => {
               <FiYoutube className="m-auto  text-[28px]" />
             </div>
           </div>
-          <div className="mt-[32px] max-w-[828px]">
+          <div className="mt-[32px] max-w-[828px] text-[14px] 2xl:text-[16px]">
             <p>
               Loyiha arxitekturasi, obodonlashtirish, fasadlar, interyer
               tasvirlari, qo'llaniladigan materiallar, ularni <br />

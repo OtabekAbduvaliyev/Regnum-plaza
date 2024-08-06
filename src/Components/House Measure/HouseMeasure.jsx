@@ -99,7 +99,7 @@ const HouseMeasure = () => {
             </button>
           </div>
           <div className="text mt-[32px] max-w-[680px]">
-            <p className="text-[16px] font-golos">
+            <p className="text-[14px] 2xl:text-[18px] font-golos">
               {page.text}
             </p>
           </div>
@@ -109,8 +109,8 @@ const HouseMeasure = () => {
                 key={index}
                 className="smallcard flex items-center gap-[16px]"
               >
-                <img src={card.img} alt="arch" />
-                <p className="font-[500] text-[24px] font-golos leading-[32px] lg:text-[20px] lg:leading-[25px] 2xl:text-[24px]">
+                <img src={card.img} alt="arch" className="max-w-[70px] xl:max-w-[60px] 2xl:max-w-[80px]" />
+                <p className="font-[500] text-[18px]  font-golos leading-[32px]  lg:leading-[25px] 2xl:text-[24px]">
                   {card.text.split(" ").map((word, i) => (
                     <React.Fragment key={i}>
                       {i > 0 && " "}

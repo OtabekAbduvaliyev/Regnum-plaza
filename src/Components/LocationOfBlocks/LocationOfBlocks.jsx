@@ -32,7 +32,7 @@ const LocationOfBlocks = () => {
     </h1>
       <div className="buttons  inline-flex items-end mt-[100px] sm:mt-[300px] md:mt-[350px] lg:mt-[400px] xl:mt-[520px] 2xl:mt-[800px] bg-white text-[18px] p-[2px] rounded rounded-[50px] gap-[8px] z-20">
         <button
-          className={`p-[6px] sm:p-[12px] ${
+          className={`p-[6px] text-[12px] xl:text-[15px] sm:p-[12px] ${
             !change ? "bg-[#384D8B] text-white" : "bg-white text-black"
           } rounded rounded-[50px] text-black font-golos`}
           onClick={handleChange}
@@ -40,7 +40,7 @@ const LocationOfBlocks = () => {
           Bosh reja
         </button>
         <button
-          className={`p-[6px] sm:p-[12px] ${
+          className={`p-[6px] text-[12px] xl:text-[15px]  sm:py-[12px] sm:px-[24px] ${
             change ? "bg-[#384D8B] text-white" : "bg-white text-black"
           } rounded rounded-[50px] text-black font-golos`}
           onClick={handleChange}

@@ -50,45 +50,49 @@ const BuildingProgress = () => {
             Qurilish jarayoni
           </h1>
         </div>
-        <div className="progressCards flex flex-col items-center md:flex-row md:flex-wrap justify-between">
-          <div className="progressCard mt-[45px]">
+        <div className="progressCards flex flex-col items-center md:flex-row md:flex-wrap justify-between gap-[2px]">
+          <div className="progressCard mt-[45px] cursor-pointer">
             <img
+              
               onClick={openModal}
               src={houseImg}
               alt=""
-              className="max-w-[427px] w-[100%] rounded-[16px]  xl:max-w-[350px]  2xl:max-w-[400px]"
+              className="xl:max-w-[280px] 2xl:max-w-[400px] w-[100%] rounded-[16px] "
             />
-            <p className="text-[20px] font-[600] font-golos mt-[16px] xl:text-[24px]">
+            <p className="text-[20px] font-[600] font-golos mt-[16px] xl:text-[18px] 2xl:text-[24px]">
               Iyun
             </p>
           </div>
-          <div className="progressCard mt-[45px]">
+          <div className="progressCard mt-[45px] cursor-pointer">
             <img
+            onClick={openModal}
               src={houseImg2}
               alt=""
-              className="max-w-[427px] w-[100%] rounded-[16px] xl:max-w-[350px] 2xl:max-w-[400px]"
+              className="xl:max-w-[280px] 2xl:max-w-[400px] w-[100%] rounded-[16px]"
             />
-            <p className="text-[20px] font-[600] font-golos mt-[16px] xl:text-[24px]">
+            <p className="text-[20px] font-[600] font-golos mt-[16px] xl:text-[18px] 2xl:text-[24px]">
               May
             </p>
           </div>
-          <div className="progressCard mt-[45px]">
+          <div className="progressCard mt-[45px] cursor-pointer">
             <img
+            onClick={openModal}
               src={houseImg3}
               alt=""
-              className="max-w-[427px] w-[100%] rounded-[16px] xl:max-w-[350px] 2xl:max-w-[400px]"
+              className="xl:max-w-[280px] 2xl:max-w-[400px] w-[100%] rounded-[16px]"
             />
-            <p className="text-[20px] font-[600] font-golos mt-[16px] xl:text-[24px]">
+            <p className="text-[20px] font-[600] font-golos mt-[16px] xl:text-[18px] 2xl:text-[24px]">
               Mart
             </p>
           </div>
-          <div className="progressCard mt-[45px]">
+          <div className="progressCard mt-[45px] cursor-pointer">
             <img
+            onClick={openModal}
               src={houseImg4}
               alt=""
-              className="max-w-[427px] w-[100%] rounded-[16px] xl:max-w-[350px] 2xl:max-w-[400px]"
+              className="xl:max-w-[280px] 2xl:max-w-[400px] w-[100%] rounded-[16px]"
             />
-            <p className="text-[20px] font-[600] font-golos mt-[16px] xl:text-[24px]">
+            <p className="text-[20px] font-[600] font-golos mt-[16px] xl:text-[18px] 2xl:text-[24px]">
               Aprel
             </p>
           </div>
