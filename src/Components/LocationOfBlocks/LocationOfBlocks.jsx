@@ -26,7 +26,7 @@ const LocationOfBlocks = () => {
     )}
   </div>
 
-  <div className="controller absolute top-0 left-0 w-full px-[10px] sm:px-[40px] lg:px-[60px] 2xl:px-[110px] z-20 "> 
+  <div className="controller absolute top-0 left-0 pl-[110px]  max-w-[500px]   pb-[64px] sm:max-w-[650px] md:max-w-[800px] lg:max-w-[1000px] xl:max-w-[1250px] 2xl:max-w-[1680px] z-20 "> 
     <h1 className={` ${!change ? 'text-white' : 'text-gray-500'} font-golos font-[600] text-[18px]  pt-[14px] lg:pt-[64px] sm:text-[32px] xl:text-[40px]`}>
       Bloklar Joylashuvi
     </h1>

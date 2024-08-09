@@ -65,7 +65,7 @@ const Form = () => {
                 autoComplete="none"
                 type="text"
                 id="name"
-                className="pl-[10px] w-[250px] h-[40px] bg-[#F3F3EF] rounded rounded-[8px] placeholder:text-[#505050  placeholder:pl-[10px] mt-[8px]"
+                className="pl-[10px] w-[250px] h-[40px] bg-[#F3F3EF] rounded rounded-[8px] placeholder:text-[#505050  mt-[8px]"
                 placeholder="Ismingiz kiriting..."
                 required
                 value={message}
@@ -90,8 +90,8 @@ const Form = () => {
                   <input
                     type="tel"
                     id="number"
-                    className="pl-[10px] w-[250px] h-[40px] bg-[#F3F3EF] rounded rounded-[8px] placeholder:text-[#505050] placeholder:pl-[10px] mt-[8px]"
-                    placeholder="+998 123 45 67"
+                    className="pl-[10px] w-[250px] h-[40px] bg-[#F3F3EF] rounded rounded-[8px] placeholder:text-[#505050]  mt-[8px]"
+                    placeholder="+998 ___ __ __"
                     required
                   />
                 )}

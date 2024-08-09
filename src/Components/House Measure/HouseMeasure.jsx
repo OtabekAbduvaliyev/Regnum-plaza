@@ -29,6 +29,18 @@ const pageData = [
         img: archLogo,
         text: "Bolalar o‘yin maydonchalari",
       },
+      {
+        img: archLogo,
+        text: (<>
+          Workout <br />  zonalar
+        </>),
+      },
+      {
+        img: archLogo,
+        text: (
+          <>Barbekyu <br /> zonalar</>
+        )
+      },
     ],
     img: housesImg,
   },
@@ -75,14 +87,14 @@ const HouseMeasure = () => {
 
   return (
     <div className="bg-[#F6F6F4] mt-[54px]" id="house">
-      <div className="flex flex-col px-[10px] py-[65px] sm:px-[30px] md:px-[20px] lg:px-[70px] xl:flex-row xl:items-center xl:gap-[60px] justify-between 2xl:px-[110px] 2xl:gap-[0px]">
+      <div className="flex flex-col px-[10px] py-[65px] sm:px-[30px] md:px-[20px] lg:px-[70px] xl:flex-row xl:gap-[60px] justify-between 2xl:px-[110px] 2xl:gap-[0px]">
         <div className="infsection">
           <h1 className="text-[40px] font-golos font-[600] 2xl:text-[48px]">
             Hovli Maydoni
           </h1>
-          <div className="levelButons bg-white p-[4px] inline-flex rounded-[50px] mt-[32px]">
+          <div className="levelButons bg-white p-[3px] 2xl:p-[4px] inline-flex rounded-[50px] mt-[32px]">
             <button
-              className={`px-[18px] py-[8px] sm:px-[24px] sm:py-[12px] ${
+              className={`2xl:px-[18px] 2xl:py-[8px] sm:px-[16px] sm:py-[8px] text-[12px] 2xl:text-[18px] ${
                 selectedIndex === 0 ? "bg-[#384D8B] text-white" : "bg-white text-black"
               } rounded rounded-[50px] text-black font-golos`}
               onClick={() => handleNavbatChange(0)}
@@ -90,7 +102,7 @@ const HouseMeasure = () => {
               1 navbat
             </button>
             <button
-              className={`px-[18px] py-[8px] sm:px-[24px] sm:py-[12px] ${
+              className={`2xl:px-[18px] 2xl:py-[8px] sm:px-[16px] sm:py-[8px] text-[12px] 2xl:text-[18px] ${
                 selectedIndex === 1 ? "bg-[#384D8B] text-white" : "bg-white text-black"
               } rounded rounded-[50px] text-black font-golos`}
               onClick={() => handleNavbatChange(1)}
@@ -99,25 +111,19 @@ const HouseMeasure = () => {
             </button>
           </div>
           <div className="text mt-[32px] max-w-[680px]">
-            <p className="text-[14px] 2xl:text-[18px] font-golos">
+            <p className="text-[13px] 2xl:text-[18px] font-golos leading-[18px] 2xl:leading-[24px]">
               {page.text}
             </p>
           </div>
-          <div className="projectInfWithIcons mt-[40px] grid sm:grid-cols-2 gap-[56px] lg:gap-[20px]">
+          <div className="projectInfWithIcons mt-[40px] grid sm:grid-cols-2 gap-[56px] lg:gap-[20px] 2xl:gap-y-[40px]">
             {page.cardData.map((card, index) => (
               <div
                 key={index}
-                className="smallcard flex items-center gap-[16px]"
+                className="smallcard flex items-center gap-[16px] max-w-[391px] 2xl:max-w-[340px]"
               >
                 <img src={card.img} alt="arch" className="max-w-[70px] xl:max-w-[60px] 2xl:max-w-[80px]" />
                 <p className="font-[500] text-[18px]  font-golos leading-[32px]  lg:leading-[25px] 2xl:text-[24px]">
-                  {card.text.split(" ").map((word, i) => (
-                    <React.Fragment key={i}>
-                      {i > 0 && " "}
-                      {word}
-                      {i % 2 === 0 && <br />}
-                    </React.Fragment>
-                  ))}
+                  {card.text}
                 </p>
               </div>
             ))}
@@ -127,7 +133,7 @@ const HouseMeasure = () => {
           <img
             src={page.img}
             alt=""
-            className="rounded rounded-[16px] mt-[50px] h-[100%]"
+            className="rounded rounded-[16px]  h-[100%]"
           />
         </div>
       </div>

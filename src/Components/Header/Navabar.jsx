@@ -1,19 +1,21 @@
 import React, { useEffect, useState } from "react";
 import logo from "../../assets/a42f8b875011fd92170ca9c4f297278f.png";
-import { TbPhoneCall } from "react-icons/tb";
+import { TbPhoneCall, TbWorld } from "react-icons/tb";
 import { GoDownload } from "react-icons/go";
-import { FaBars } from "react-icons/fa";
 import download from "../../Pdf/building typesList.pdf";
 import LanguageSelector from "../Language Selector/LanguageSelector";
-import { useTranslation } from 'react-i18next';
-import LanguageSelector2 from "../Language Selector/LanguageSelector2";
-import LanguageSelector3 from "../Language Selector/LanguageSelector3";
+import { useTranslation } from "react-i18next";
+import { HiBars3, HiMiniBars3BottomLeft } from "react-icons/hi2";
+import { IoClose } from "react-icons/io5";
+import { FaFacebookF, FaInstagram } from "react-icons/fa";
+import { BiLogoTelegram } from "react-icons/bi";
+import { FiYoutube } from "react-icons/fi";
 const Navbar = () => {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
   const [visible, setVisible] = useState(true);
   const [scroll, setScroll] = useState(false);
   const [openMenu, setOpenMenu] = useState(false);
-  const { t } = useTranslation()
+  const { t } = useTranslation();
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY >= 20) {
@@ -51,20 +53,35 @@ const Navbar = () => {
   return (
     <div>
       <div>
-        {openMenu && (
-          <div
-            className={`navLinks z-[999] pl-[10px] sm:pl-[20px] md:pl-[40px] lg:pl-[60px] 2xl:pl-[110px] text-[22px] absolute bg-[#384D8B] xl:flex flex-col text-white 2xl:text-[18px] w-[80%] lg:w-[50%] h-[100%] pt-[50px] transform transition-transform duration-[300ms] ease-in-out ${
-              openMenu ? "translate-x-0" : "-translate-x-full"
-            }`}
-          >
-            <ul className="flex flex-col">
+        <div
+
+className={`navmenu navLinks z-[999] text-[14px] fixed bg-[#384D8B] xl:flex flex-col text-white w-[100%] h-[100%] pt-[16px] transform transition-transform duration-[300ms] ease-in-out text-center font-golos ${
+  openMenu ? "translate-x-0 animate-slideInLeft" : "-translate-x-full"
+}`}
+        >
+          <div className="nav flex items-center justify-between px-[16px]">
+            <div className="menu">
+              <HiMiniBars3BottomLeft className="text-[24px]" onClick={handleOpenMenu}/>
+            </div>
+            <div className="logo max-w-[133px]">
+              <img src={logo} alt="" />
+            </div>
+            <div className="close bg-white rounded-[12px] w-[32px] h-[32px] flex items-center justify-center">
+              <IoClose
+                className="text-[#384D8B] text-[24px]"
+                onClick={handleOpenMenu}
+              />
+            </div>
+          </div>
+          <div className="flex flex-col gap-y-[32px]">
+            <ul className="flex flex-col gap-y-[24px] pt-[40px]">
               <li>
                 <a
                   href="#aboutproject"
                   className="hover:text-[#384D8B]"
                   onClick={handleOpenMenu}
                 >
-                   {t('aboutProject')}
+                  Loyiha haqida
                 </a>
               </li>
               <li>
@@ -113,9 +130,64 @@ const Navbar = () => {
                 </a>
               </li>
             </ul>
-            <LanguageSelector3 />
+            <div className="socialMedia flex gap-[5px] justify-center">
+              <div className="w-[40px] h-[32px] bg-[#5181B8] rounded-[8px] flex items-center justify-center cursor-pointer hover:w-[65px] hover:h-[57px] transiton-all duration-700">
+                <FaFacebookF className="m-auto  text-[17.45px]" />
+              </div>
+              <div className="w-[40px] h-[32px] bg-[#5181B8] rounded-[8px] flex items-center justify-center cursor-pointer  hover:w-[65px] hover:h-[57px] transiton-all duration-700">
+                <FaInstagram className="m-auto  text-[17.45px]" />
+              </div>
+              <div className="w-[40px] h-[32px] bg-[#5181B8] rounded-[8px] flex items-center justify-center cursor-pointer  hover:w-[65px] hover:h-[57px] transiton-all duration-700">
+                <BiLogoTelegram className="m-auto text-[17.45px]" />
+              </div>
+              <div className="w-[40px] h-[32px] bg-[#5181B8] rounded-[8px] flex items-center justify-center cursor-pointer  hover:w-[65px] hover:h-[57px] transiton-all duration-700">
+                <FiYoutube className="m-auto  text-[17.45px]" />
+              </div>
+            </div>
+            <div className="pNUmber">
+              <div className="phonenumber flex items-center justify-center text-white gap-[10px] hover:text-[#5181B8] transition-all duration-1000">
+                <TbPhoneCall className="text-[24px] sm:text-[24px]" />
+                <h1 className="text-[18px] sm:text-[24px] font-[600]  font-golos">
+                  <a href="tel://1066">1066</a>{" "}
+                </h1>
+              </div>
+            </div>
+            <div>
+              <a
+                href={download}
+                download={"presentation.pdf"}
+                className="download flex flex-col items-center text-white font-golos font-[300] gap-[10px]  hover:text-[#5181B8] transition-all duration-1000"
+              >
+                <div className="downloadicon ">
+                  <GoDownload className="text-[24px]" />
+                </div>
+                <div className="downloadText">
+                  <p className=" text-[14px]">Taqdimot</p>
+                  <p className="text-[12px] text-[#C0C0C0]">
+                    5.3mb yuklab olish
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div className="headerButtons  flex justify-center font-golos  gap-[16px]">
+              <button className="w-[40px] h-[40px]  rounded rounded-[50%] text-white bg-[#58699E] p-[1.3px] hovr:bg-[#5181B8] transiton-all duration-700 text-[8px]">
+                <a target="_blank" href="https://www.youtube.com/">
+                  Jonli <br /> Efir
+                </a>
+              </button>
+              <button className="w-[40px] h-[40px]  rounded rounded-[50%] text-white bg-[#58699E] p-[1.3px] hovr:bg-[#5181B8] transiton-all duration-700 flex flex-col items-center justify-center text-[7.2px]">
+                <a target="_blank" href="https://earth.google.com/web/">
+                  <TbWorld className="text-[20px]" /> 360
+                </a>
+              </button>
+              <button className="w-[40px] h-[40px]  rounded rounded-[50%] text-white bg-[#58699E] p-[1.3px] hovr:bg-[#5181B8] transiton-all duration-700">
+                <a target="_blank" href="https://zoom.us/">
+                  <TbPhoneCall className="text-[24px] m-auto" />
+                </a>
+              </button>
+            </div>
           </div>
-        )}
+        </div>
       </div>
       <div
         className={`fixed navbar top-0 left-0 z-[998] w-[100%] bg-transparent xl:py-[8px] transition-all duration-500 ${
@@ -129,13 +201,19 @@ const Navbar = () => {
         <nav
           className={`${
             !scroll ? "text-white" : "text-black"
-          } flex justify-between py-[26px] px-[10px] items-center font-golos sm:px-[20px] sm:py-[20px] md:px-[40px] lg:px-[60px] 2xl:px-[110px]`}
+          } flex justify-between items-center font-golos py-[20px] max-w-[500px] px-[15px] sm:px-[0px] sm:max-w-[650px] md:max-w-[800px] lg:max-w-[1000px] xl:max-w-[1250px] 2xl:max-w-[1680px] m-auto`}
         >
           <div className="navleftside flex xl:gap-[40px] 2xl:gap-[64px]">
-            <div className="logo max-w-[180px] sm:max-w-[200px] md:max-w-[210px] 2xl:max-w-[220px]">
-              <a href="#home">
-                <img src={logo} alt="" className="w-[100%]" />
-              </a>
+            <div className="flex  gap-[8px]">
+              <HiBars3
+                className="text-[24px] text-white sm:text-[30px] xl:hidden p-[0] m-[0]"
+                onClick={handleOpenMenu}
+              />
+              <div className="logo max-w-[133px] sm:max-w-[200px] md:max-w-[210px] 2xl:max-w-[220px]">
+                <a href="#home">
+                  <img src={logo} alt="" className="w-[100%]" />
+                </a>
+              </div>
             </div>
             <div className="navLinks text-[14.5px] hidden xl:flex items-center text-white 2xl:text-[18px] ">
               <ul className="flex space-x-4 2xl:space-x-10">
@@ -144,7 +222,7 @@ const Navbar = () => {
                     href="#aboutproject"
                     className="transition-all duration-1000 border-b-[3px] border-transparent pb-[5px] hover:border-[#384D8B]"
                   >
-                   {t('aboutProject')}
+                    {t("aboutProject")}
                   </a>
                 </li>
                 <li>
@@ -189,23 +267,13 @@ const Navbar = () => {
                 </li>
               </ul>
 
-          <LanguageSelector />
+              <LanguageSelector />
             </div>
           </div>
           <div className="contact flex gap-[10px] sm:gap-[25px] md:gap-[40px] xl:gap-[10px] 2xl:gap-[30px] items-center">
-            {/* <select
-              name="language-mobile"
-              id="language-mobile"
-              className="lg:block hidden bg-transparent text-white xl:hidden 2xl:text-[18px]"
-            >
-              <option value="Uz">O'zbek</option>
-              <option value="Eng">English</option>
-              <option value="Ru">Russian</option>
-            </select> */}
-            <LanguageSelector2 />
-            <div className="phonenumber flex items-center text-white gap-[4px] hover:text-[#5181B8] transition-all duration-1000">
-              <TbPhoneCall className="text-[20px] sm:text-[24px]" />
-              <h1 className="text-[20px] sm:text-[24px] font-[600] ">
+            <div className="phonenumber flex items-center text-white gap-[10px] hover:text-[#5181B8] transition-all duration-1000">
+              <TbPhoneCall className="text-[24px] sm:text-[24px]" />
+              <h1 className="text-[16px] sm:text-[24px] font-[600] ">
                 <a href="tel://1066">1066</a>{" "}
               </h1>
             </div>
@@ -226,12 +294,6 @@ const Navbar = () => {
                   </p>
                 </div>
               </a>
-              <div className="menu">
-                <FaBars
-                  className="text-[30px] text-white sm:text-[30px] sm:ml-[10px] xl:hidden"
-                  onClick={handleOpenMenu}
-                />
-              </div>
             </div>
           </div>
         </nav>

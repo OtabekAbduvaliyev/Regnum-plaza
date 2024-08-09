@@ -20,7 +20,6 @@ function App() {
   <PossesedLocation />
   <LocationOfBlocks />
   <ObjectArchitecture />
-  <HouseMeasure />
   <Architectular />
   <Form />
   <BuildingProgress />
