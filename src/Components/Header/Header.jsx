@@ -8,8 +8,8 @@ const Header = () => {
       <Navbar />
       <div>
         <header className="flex items-center m-auto  pb-[50px]  justify-between 2xl:pb-[100px] px-[15px] sm:px-[0px]  max-w-[500px] sm:max-w-[650px] md:max-w-[800px] lg:max-w-[1000px] xl:max-w-[1250px] 2xl:max-w-[1680px] ">
-          <div className="headerInf pb-[36px] flex items-end">
-            <div>
+          <div className="headerInf pb-[36px] flex items-end ">
+            <div className="absolute z-[999] max-w-[281px]">
               <h1 className="text-white font-[600] font-golos text-[24px] lg:text-[55px] 2xl:text-[72px] 2xl:leading-[90px]">
                 Baxtli hayot maskaniga <br />
                 xush kelibsiz!
