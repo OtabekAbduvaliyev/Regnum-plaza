@@ -8,29 +8,29 @@ import { FiYoutube } from "react-icons/fi";
 const Footer = () => {
   return (
     <div className="bg-[#384D8B] text-[white] " id="contact">
-      <div className="font-golos flex flex-col py-[30px] px-[10px] sm:px-[30px] md:px-[50px] xl:px-[70px] 2xl:px-[110px] lg:flex-row justify-between">
-        <div className="flex-1">
-          <h1 className="font-[600] text-[32px]">Bog'lanish</h1>
+      <div className="font-golos flex flex-col-reverse py-[30px]  px-[15px] sm:px-[0px]  max-w-[500px] sm:max-w-[650px] md:max-w-[800px] lg:max-w-[1000px] xl:max-w-[1250px] 2xl:max-w-[1680px] ] lg:flex-row justify-between">
+        <div className="flex-1 mt-[16px]">
+          <h1 className="font-[600] text-[24px]">Bog'lanish</h1>
           <div className="location">
             <div className="flex items-center  mt-[30px] gap-[8px]">
               <CiLocationOn className="text-[24px]" />
-              <p className="text-[22px] font-[600]">Sotuv Bo'limi:</p>
+              <p className="text-[16px] font-[600]">Sotuv Bo'limi:</p>
             </div>
-            <p>
+            <p className="text-[14px] mt-[4px]">
               Toshkent shahri, Mirobod tumani, <br /> Oybek ko‘chasi 38а, Biznes
               center "Avalon", 1 qavat
             </p>
             <div className="flex items-center mt-[25px] gap-[8px]">
               <CiLocationOn className="text-[24px]" />
-              <p className="text-[22px] font-[600]">Sotuv Bo'limi:</p>
+              <p className="text-[16px] font-[600]">Sotuv Bo'limi:</p>
             </div>
-            <p>
+            <p className="text-[14px] mt-[4px]">
               Toshkent shahri, Mirobod tumani, <br /> Oybek ko‘chasi 38а, Biznes
               center "Avalon", 1 qavat
             </p>
           </div>
           <div className="phoneNumber mt-[32px]">
-            <h1 className="text-[22px] font-[600]">Telefon:</h1>
+            <h1 className="text-[16px] font-[600]">Telefon:</h1>
             <div className="flex items-center gap-[8px] cursor-pointer hover:text-[#5181B8] transition-all duration-700">
               <BiPhoneCall className="text-[30px]" />
               <p className="font-[600] text-[28px] "><a href="tel://1066">1066</a></p>
@@ -50,7 +50,7 @@ const Footer = () => {
               <FiYoutube className="m-auto  text-[28px]" />
             </div>
           </div>
-          <div className="mt-[32px] max-w-[828px] text-[14px] 2xl:text-[16px]">
+          <div className="mt-[32px] max-w-[828px] text-[12px] 2xl:text-[16px] leading-[16px]">
             <p>
               Loyiha arxitekturasi, obodonlashtirish, fasadlar, interyer
               tasvirlari, qo'llaniladigan materiallar, ularni <br />
@@ -73,7 +73,6 @@ const Footer = () => {
           ></iframe>
         </div>
       </div>
-      <h1 className="text-center text-gray-200">Created by Codevision Company</h1>
     </div>
   );
 };
