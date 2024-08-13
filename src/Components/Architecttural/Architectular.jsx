@@ -34,8 +34,8 @@ const Architectular = () => {
             className={`text-[16px] py-[6px] px-[12px] ${
               selectedIndex === 0
                 ? "bg-[#384D8B] text-white"
-                : "bg-transparent text-black"
-            } font-golos rounded-[32px] lg:py-[8px] lg:px-[16px] 2xl:px-[24px] xl:text-[16px] 2xl:text-[24px]`}
+                : "bg-transparent text-[#505050]"
+            } font-golos rounded-[32px] lg:py-[8px] lg:px-[16px] 2xl:px-[24px] xl:text-[16px] 2xl:text-[24px]  font-[500]`}
           >
             Hammasi
           </button>
@@ -44,8 +44,8 @@ const Architectular = () => {
             className={`text-[16px] py-[6px] px-[12px] ${
               selectedIndex === 1
                 ? "bg-[#384D8B] text-white"
-                : "bg-transparent text-black"
-              } font-golos rounded-[32px] xl:py-[8px] 2xl:px-[24px] xl:text-[16px] 2xl:text-[24px]`}
+                : "bg-transparent text-[#505050]"
+              } font-golos rounded-[32px] xl:py-[8px] 2xl:px-[24px] xl:text-[16px] 2xl:text-[24px] text-[#505050] font-[500]`}
           >
             1 - xonali
           </button>
@@ -54,8 +54,8 @@ const Architectular = () => {
             className={`text-[16px] py-[6px] px-[12px] ${
               selectedIndex === 2
                 ? "bg-[#384D8B] text-white"
-                : "bg-transparent text-black"
-              } font-golos rounded-[32px] xl:py-[8px] 2xl:px-[24px] xl:text-[16px] 2xl:text-[24px]`}
+                : "bg-transparent text-[#505050]"
+              } font-golos rounded-[32px] xl:py-[8px] 2xl:px-[24px] xl:text-[16px] 2xl:text-[24px] text-[#505050] font-[500]`}
               >
             2 - xonali
           </button>
@@ -64,8 +64,8 @@ const Architectular = () => {
             className={`text-[16px] py-[6px] px-[12px] ${
               selectedIndex === 3
                 ? "bg-[#384D8B] text-white"
-                : "bg-transparent text-black"
-            } font-golos rounded-[32px] xl:py-[8px] 2xl:px-[24px] xl:text-[16px] 2xl:text-[24px]`}
+                : "bg-transparent text-[#505050]"
+            } font-golos rounded-[32px] xl:py-[8px] 2xl:px-[24px] xl:text-[16px] 2xl:text-[24px] text-[#505050] font-[500]`}
           >
             3 - xonali
           </button>
@@ -74,21 +74,21 @@ const Architectular = () => {
             className={`text-[16px] py-[6px] px-[12px] ${
               selectedIndex === 4
                 ? "bg-[#384D8B] text-white"
-                : "bg-transparent text-black"
-            } font-golos rounded-[32px] xl:py-[8px] 2xl:px-[24px] xl:text-[16px] 2xl:text-[24px]`}
+                : "bg-transparent text-[#505050]"
+            } font-golos rounded-[32px] xl:py-[8px] 2xl:px-[24px] xl:text-[16px] 2xl:text-[24px]  text-[#505050] font-[500]`}
           >
             4-xonali
           </button>
         </div>
       </div>
         </div>
-      <div className="imgs flex flex-col items-center mt-[33.15px] 2xl:mt-[93.1px] sm:flex-row sm:justify-between md:px-[63.31px] lg:px-[100px] 2xl:max-w-[1400px] m-auto">
+      <div className="imgs flex flex-col items-center mt-[33.15px] 2xl:mt-[93.1px] sm:flex-row sm:justify-between md:px-[63.31px] lg:px-[100px] 2xl:px-[147px] m-auto">
         {page.map((imgSrc, index) => (
           <img
           key={index}
             src={imgSrc}
             alt=""
-            className="max-w-[130px] md:max-w-[79.4px] lg:max-w-[130px] 2xl:max-w-[200px] 2xl: w-[100%]"
+            className="max-w-[130px] md:max-w-[79.4px] lg:max-w-[130px] 2xl:max-w-[184px] 2xl:w-[100%]"
           />
         ))}
       </div>

@@ -21,30 +21,33 @@ const Header = () => {
             </div>
           </div>
           <div className="headerButtons mt-auto  md:flex  flex flex-col items-end justify-end font-golos text-[8px] gap-[8px]">
-            <button className="  w-[32px] h-[32px] md:w-[40px] md:h-[40px]   rounded rounded-[50%] text-white bg-[#384D8B] p-[1.3px] hover:bg-[#5181B8] transiton-all duration-700">
-              <a target="_blank" href="https://www.youtube.com/">
+            <button className="  w-[32px] h-[32px] md:w-[40px] md:h-[40px]  2xl:w-[56px] 2xl:h-[56px]  rounded rounded-[50%] text-white bg-[#384D8B] p-[1.3px] hover:bg-[#5181B8] transiton-all duration-700">
+              <a target="_blank" href="https://www.youtube.com/" className="2xl:text-[12.6px] 2xl:leading-[15.12px]">
                 Jonli <br /> efir
               </a>
             </button>
-            <button className=" w-[32px] h-[32px] md:w-[40px] md:h-[40px]   rounded rounded-[50%] text-white bg-[#384D8B] p-[1.3px] hover:bg-[#5181B8] transiton-all duration-700 flex flex-col items-center justify-center">
+            <button className=" w-[32px] h-[32px] md:w-[40px] md:h-[40px] 2xl:w-[56px] 2xl:h-[56px]   rounded rounded-[50%] text-white bg-[#384D8B] p-[1.3px] hover:bg-[#5181B8] transiton-all duration-700 flex flex-col items-center justify-center">
               <a
                 target="_blank"
                 href="https://earth.google.com/web/"
-                className="text-[6px]"
+                className="2xl:text-[12.6px]"
               >
-                <TbWorld className="text-[20px]" /> 360
+                <TbWorld className="text-[20px] 2xl:text-[24px]" /> 360
               </a>
             </button>
-            <button className=" w-[32px] h-[32px] md:w-[40px] md:h-[40px]    rounded rounded-[50%] text-white bg-[#384D8B] p-[1.3px] hover:bg-[#5181B8] transiton-all duration-700">
-              <a target="_blank" href="https://zoom.us/">
-                <TbPhoneCall className="text-[20px] sm:text-[24px] m-auto" />
-              </a>
-            </button>
-            <button className=" w-[161px] h-[32px] md:w-[169px]   rounded rounded-[40px] text-white bg-[#384D8B] p-[1.3px] hover:bg-[#5181B8] transiton-all duration-700 text-[12px]">
+            <div className="flex flex-col  lg:flex-row  gap-x-[8px] items-end flex-col-reverse 2xl:gap-x-[16px]">
+
+            <button className=" w-[161px] h-[32px] md:w-[169px] md:h-[40px] mt-[8px] lg:mt-[0px] 2xl:w-[253px] 2xl:h-[56px]   rounded rounded-[40px] text-white bg-[#384D8B] p-[1.3px] hover:bg-[#5181B8] transiton-all duration-700 text-[12px] 2xl:text-[18px]">
               <a target="_blank" href="https://zoom.us/">
                 Rejalashtirishni tanlash
               </a>
             </button>
+            <button className=" w-[32px] h-[32px] md:w-[40px] md:h-[40px] 2xl:w-[56px] 2xl:h-[56px]    rounded rounded-[50%] text-white bg-[#384D8B] p-[1.3px] hover:bg-[#5181B8] transiton-all duration-700">
+              <a target="_blank" href="https://zoom.us/">
+                <TbPhoneCall className="text-[20px] sm:text-[24px] 2xl:text-[30.6px] m-auto" />
+              </a>
+            </button>
+            </div>
           </div>
         </header>
       </div>

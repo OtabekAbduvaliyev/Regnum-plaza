@@ -6,10 +6,10 @@ const AboutBuilders = () => {
     <div className="font-golos mt-[64px] bg-[#F6F6F4]">
       <div className=" py-[64px] xl:py-[72px]  px-[15px] sm:px-[0px]  max-w-[500px] sm:max-w-[650px] m-auto md:max-w-[672px] lg:max-w-[1000px] xl:max-w-[1200px] 2xl:max-w-[1680px]  md:flex md:gap-[24px] 2xl:items-center lg:gap-[0px] 2xl:gap-[0px] lg:justify-between">
         <div>
-          <h1 className="text-[24px] font-[600] lg:text-[28px]">
+          <h1 className="text-[24px] font-[600] lg:text-[28px] 2xl:text-[40px]">
             Quruvchi kompaniya <br className="lg:hidden"/> to'g'risida
           </h1>
-          <p className="text-[#505050] text-[14px] lg:text-[13px] mt-[16px] max-w-[686px] lg:max-w-[480px] lg:leading-[16px]">
+          <p className="text-[#505050] text-[14px] lg:text-[13px] mt-[16px] 2xl:max-w-[686px] lg:max-w-[480px] lg:leading-[16px] 2xl:text-[18px] 2xl:leading-[24px]">
             Sizning uyingizda hozirdan baxtli oilalar yashamogdalar, bolajonlar
             birinchi do'stlarini topmoqdalar va do stona qo'shnichilik
             madaniyati gullab-yashnamoqda. <br />
@@ -24,7 +24,7 @@ const AboutBuilders = () => {
           </p>
           <div className="numbers mt-[24px] gap-[28px] flex sm:flex-row sm:items-center inline-flex sm:gap-[26px] lg:gap-[68px]">
             <div className="number">
-              <h1 className="text-[#384D8B] text-[24px] font-[600] lg:text-[32px]">
+              <h1 className="text-[#384D8B] text-[24px] font-[600] lg:text-[32px] 2xl:text-[48px]">
                 <CountUp
                   scrollSpyOnce={true}
                   enableScrollSpy={true}
@@ -39,7 +39,7 @@ const AboutBuilders = () => {
               </p>
             </div>
             <div className="number sm:mt-[0px]">
-              <h1 className="text-[#384D8B] text-[24px] lg:text-[32px] font-[600]">
+              <h1 className="text-[#384D8B] text-[24px] lg:text-[32px]  xl:text-[48px] font-[600]">
                 <CountUp         scrollSpyOnce={true}
         enableScrollSpy={true} end={188430} duration={2} />+
                 m2
@@ -55,7 +55,7 @@ const AboutBuilders = () => {
   <img
     src={houseImg}
     alt=""
-    className="mt-[50px] rounded-ss-[160px] rounded-[12px] md:mt-[0px] md:h-[100%] md:w-[400px] lg:h-[400px] lg:w-[600px] object-cover lg:scale-x-[-1] lg:rounded-se-[200px] lg:rounded-ss-[12px]"
+    className="mt-[50px] rounded-ss-[160px] rounded-[12px] md:mt-[0px] md:h-[100%] md:w-[400px] lg:h-[400px] lg:w-[600px] object-cover lg:scale-x-[-1] lg:rounded-se-[200px] lg:rounded-ss-[12px] 2xl:w-[828px] 2xl:h-[560px]  2xl:rounded-se-[280px]"
   />
 </div>
 

@@ -7,7 +7,7 @@ const AboutProject = () => {
   return (
     <div
       id="aboutproject"
-      className="pt-[16px] md:pt-[40px]  max-w-[500px] px-[15px] sm:px-[0px] sm:max-w-[650px] md:max-w-[672px] lg:max-w-[1000px] xl:max-w-[1200px] 2xl:max-w-[1680px] m-auto"
+      className="pt-[16px] 2xl:pb-[64px] md:pt-[40px]  max-w-[500px] px-[15px] sm:px-[0px] sm:max-w-[650px] md:max-w-[672px] lg:max-w-[1000px] xl:max-w-[1200px] 2xl:max-w-[1680px] m-auto"
     >
       <div className=" flex flex-col md:flex-row justify-between 2xl:gap-[0px] ">
         <div className="projectInf  ">
@@ -15,7 +15,7 @@ const AboutProject = () => {
             <h1 className="text-[24px] lg:text-[30px] 2xl:text-[40px] font-golos font-[600]">
               Loyiha haqida
             </h1>
-            <p className="font-golos text-[16px] md:text-[14px] lg:text-[13px]  leading-[20px] 2xl:text-[18px] mt-[8px] text-[#505050] md:max-w-[324px] lg:max-w-[500px] lg:leading-[20px]">
+            <p className="font-golos text-[16px] md:text-[14px] lg:text-[13px]  leading-[20px] 2xl:text-[18px] mt-[8px] text-[#505050] md:max-w-[324px] lg:max-w-[500px] lg:leading-[20px] 2xl:leading-[24px] 2xl:max-w-[686px]">
               NRG Qorasuvda hammasi ajoyib! Joylashgan o'rnidan boshlab,
               xonadonlarni joylashtirish tartibi, xavfsiz hudud va turarjoy
               majmuasining bolg'usi aholisi uchun parkovkalarning
@@ -36,7 +36,7 @@ const AboutProject = () => {
                 alt="arch"
                 className="max-w-[48px] md:max-w-[40px] lg:max-w-[58px] w-[100%] 2xl:max-w-[80px]"
               />
-              <p className="font-[500]  font-golos leading-[20px] text-[14px] lg:text-[17px] lg:leading-[25px] 2xl:text-[24px]">
+              <p className="font-[500]  font-golos leading-[20px] text-[14px] lg:text-[17px] lg:leading-[25px] 2xl:text-[24px] 2xl:leading-[32px]">
                 Rivojlangan <br /> infrotuzulma
               </p>
             </div>
@@ -46,7 +46,7 @@ const AboutProject = () => {
                 alt="arch"
                 className="max-w-[48px] md:max-w-[40px] lg:max-w-[58px] w-[100%] 2xl:max-w-[80px]"
               />
-              <p className="font-[500]  font-golos leading-[20px] text-[14px] lg:text-[17px] lg:leading-[25px] 2xl:text-[24px]">
+              <p className="font-[500]  font-golos leading-[20px] text-[14px] lg:text-[17px] lg:leading-[25px] 2xl:text-[24px] 2xl:leading-[32px]">
                 Qulay transport <br /> o‘tkazgichi
               </p>
             </div>
@@ -56,7 +56,7 @@ const AboutProject = () => {
                 alt="arch"
                 className="max-w-[48px] md:max-w-[40px] lg:max-w-[58px] w-[100%] 2xl:max-w-[80px]"
               />
-              <p className="font-[500]  font-golos leading-[20px] text-[14px] lg:text-[17px] lg:leading-[25px] 2xl:text-[24px]">
+              <p className="font-[500]  font-golos leading-[20px] text-[14px] lg:text-[17px] lg:leading-[25px] 2xl:text-[24px] 2xl:leading-[32px]">
                 Puxta o‘ylangan <br /> joylashtirish tartibi
               </p>
             </div>
@@ -66,7 +66,7 @@ const AboutProject = () => {
                 alt="arch"
                 className="max-w-[48px] md:max-w-[40px] lg:max-w-[58px] w-[100%] 2xl:max-w-[80px]"
               />
-              <p className="font-[500]  font-golos leading-[20px] text-[14px] lg:text-[17px] lg:leading-[25px] 2xl:text-[24px]">
+              <p className="font-[500]  font-golos leading-[20px] text-[14px] lg:text-[17px] lg:leading-[25px] 2xl:text-[24px] 2xl:leading-[32px]">
                 Ko‘p funksiyali <br /> hovli
               </p>
             </div>
@@ -76,7 +76,7 @@ const AboutProject = () => {
                 alt="arch"
                 className="max-w-[48px] md:max-w-[40px] lg:max-w-[58px] w-[100%] 2xl:max-w-[80px]"
               />
-              <p className="font-[500]  font-golos leading-[20px] text-[14px] lg:text-[17px] lg:leading-[25px] 2xl:text-[24px]">
+              <p className="font-[500]  font-golos leading-[20px] text-[14px] lg:text-[17px] lg:leading-[25px] 2xl:text-[24px] 2xl:leading-[32px]">
                 So‘nggi qavatlardagi <br /> terrasalar
               </p>
             </div>
@@ -86,7 +86,7 @@ const AboutProject = () => {
                 alt="arch"
                 className="max-w-[48px] md:max-w-[40px] lg:max-w-[58px] w-[100%] 2xl:max-w-[80px]"
               />
-              <p className="font-[500]  font-golos leading-[20px] text-[14px] lg:text-[17px] lg:leading-[25px] 2xl:text-[24px]">
+              <p className="font-[500]  font-golos leading-[20px] text-[14px] lg:text-[17px] lg:leading-[25px] 2xl:text-[24px] 2xl:leading-[32px]">
                 Zamonaviy <br /> mualliflik landshafti
               </p>
             </div>
@@ -96,11 +96,11 @@ const AboutProject = () => {
           <img
             src={houseImg}
             alt=""
-            className="md:w-[308px] md:h-[284px] lg:w-[600px] lg:h-[430px] 2xl:max-w-[828px] rounded-ss-[120px] lg:rounded-se-[200px] lg:rounded-[12px] rounded-[8px] lg:transform lg:scale-x-[-1]"
+            className="md:w-[308px] md:h-[284px] lg:w-[600px] lg:h-[430px] 2xl:max-w-[828px] rounded-ss-[120px] lg:rounded-se-[200px] lg:rounded-[12px] rounded-[8px] lg:transform lg:scale-x-[-1] 2xl:w-[828px] 2xl:h-[560px] 2xl:rounded-se-[280px] 2xl:rounded-[16px]"
           />
-          <div class="relative bg-white rounded-[16px] shadow-2xl mt-[-165px] md:ml-[-20px] md:mt-[-165px] z-999  py-[16px] px-[24px] md:p-[16px] md:max-w-[276px] lg:max-w-[480px] lg:ml-[-40px] lg:px-[46px] lg:py-[30px]">
+          <div class="relative bg-white rounded-[16px] shadow-2xl mt-[-165px] md:ml-[-20px] md:mt-[-165px] z-999  py-[16px] px-[24px] md:p-[16px] md:max-w-[276px] lg:max-w-[480px] lg:ml-[-40px] lg:px-[46px] lg:py-[30px] 2xl:max-w-[647px] 2xl:py-[40px] 2xl:px-[56px] 2xl:rounded-[16px] 2xl:mt-[-205px]">
             <div class="flex items-center mb-[16px] ">
-              <div class="flex items-center justify-center w-10 h-10 bg-gray-100 rounded-full">
+              <div class="flex items-center justify-center w-10 h-10 2xl:w-14 2xl:h-14 bg-gray-100 rounded-[16px]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   class="w-6 h-6 text-gray-500"
@@ -115,10 +115,8 @@ const AboutProject = () => {
                 </svg>
               </div>
             </div>
-            <p class=" font-golos text-black mb-[10px]  text-[14px] md:text-[12px] lg:text-[17px] lg:leading-[24px] md:leading-[16px] leading-[24px]  ">
-              Hududning o'zgacha bir muhiti, uning tarixiga hurmat bilan
-              munosabatda bo'lish loyihaning nomini va uning konseptini belgilab
-              berdi
+            <p class=" font-golos text-black mb-[10px]  text-[14px] md:text-[12px] lg:text-[17px] lg:leading-[24px] md:leading-[16px] leading-[24px]  2xl:text-[24px] 2xl:leading-[32px]">
+              Hududning o'zgacha bir muhiti, uning tarixiga hurmat bilan munosabatda bolish loyihaning nomini va uning konseptsiyasini belgilab berdi
             </p>
             <a
               target="_blank"

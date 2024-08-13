@@ -189,7 +189,7 @@ className={`navmenu navLinks z-[999] text-[14px] fixed bg-[#384D8B] xl:flex flex
         </div>
       </div>
       <div
-        className={`fixed navbar top-0 left-0 z-[998] w-[100%] bg-transparent xl:py-[32px] transition-all duration-500 ${
+        className={`fixed navbar top-0 left-0 z-[998] w-[100%] bg-transparent xl:py-[12px] transition-all duration-500 ${
           visible ? "translate-y-0" : "-translate-y-full"
         } ${
           !scroll
@@ -268,7 +268,7 @@ className={`navmenu navLinks z-[999] text-[14px] fixed bg-[#384D8B] xl:flex flex
 
             </div>
           </div>
-          <div className="contact flex gap-[10px] md:gap-[15px] xl:gap-[10px] 2xl:gap-[32px] items-center">
+          <div className="contact flex gap-[10px] md:gap-[15px] xl:gap-[10px] 2xl:gap-[12px] items-center">
             <div className="phonenumber flex items-center text-white gap-[10px] hover:text-[#5181B8] transition-all duration-1000">
               <TbPhoneCall className="text-[24px] sm:text-[24px]" />
               <h1 className="text-[18px] 2xl:text-[24px] font-[600] ">
