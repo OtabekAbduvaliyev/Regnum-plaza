@@ -201,28 +201,28 @@ className={`navmenu navLinks z-[999] text-[14px] fixed bg-[#384D8B] xl:flex flex
         <nav
           className={`${
             !scroll ? "text-white" : "text-black"
-          } flex justify-between items-center font-golos py-[20px] max-w-[500px] px-[15px] sm:px-[0px] sm:max-w-[650px] md:max-w-[800px] lg:max-w-[1000px] xl:max-w-[1250px] 2xl:max-w-[1680px] m-auto`}
+          } flex justify-between items-center font-golos py-[20px] lg:py-[15px] max-w-[500px] px-[15px] sm:px-[0px] sm:max-w-[650px] md:max-w-[672px] lg:max-w-[1000px] xl:max-w-[1200px] 2xl:max-w-[1680px] m-auto`}
         >
           <div className="navleftside flex xl:gap-[40px] 2xl:gap-[64px]">
             <div className="flex  gap-[8px]">
               <HiBars3
-                className="text-[24px] text-white sm:text-[30px] xl:hidden p-[0] m-[0]"
+                className="md:hidden text-[24px] text-white sm:text-[30px] xl:hidden p-[0] m-[0]"
                 onClick={handleOpenMenu}
               />
-              <div className="logo max-w-[133px] sm:max-w-[200px] md:max-w-[210px] 2xl:max-w-[220px]">
+              <div className="logo max-w-[133px] sm:max-w-[200px] md:max-w-[200px] 2xl:max-w-[220px]">
                 <a href="#home">
                   <img src={logo} alt="" className="w-[100%]" />
                 </a>
               </div>
             </div>
-            <div className="navLinks text-[14.5px] hidden xl:flex items-center text-white 2xl:text-[18px] ">
-              <ul className="flex space-x-4 2xl:space-x-10">
+            <div className="navLinks text-[14px] hidden xl:flex items-center text-white 2xl:text-[18px] ">
+              <ul className="flex space-x-4 2xl:space-x-[32px]">
                 <li>
                   <a
                     href="#aboutproject"
                     className="transition-all duration-1000 border-b-[3px] border-transparent pb-[5px] hover:border-[#384D8B]"
                   >
-                    {t("aboutProject")}
+                    Loyiha haqida
                   </a>
                 </li>
                 <li>
@@ -267,29 +267,33 @@ className={`navmenu navLinks z-[999] text-[14px] fixed bg-[#384D8B] xl:flex flex
                 </li>
               </ul>
 
-              <LanguageSelector />
             </div>
           </div>
-          <div className="contact flex gap-[10px] sm:gap-[25px] md:gap-[40px] xl:gap-[10px] 2xl:gap-[30px] items-center">
+          <div className="contact flex gap-[10px] md:gap-[15px] xl:gap-[10px] 2xl:gap-[32px] items-center">
             <div className="phonenumber flex items-center text-white gap-[10px] hover:text-[#5181B8] transition-all duration-1000">
               <TbPhoneCall className="text-[24px] sm:text-[24px]" />
-              <h1 className="text-[16px] sm:text-[24px] font-[600] ">
+              <h1 className="text-[18px] 2xl:text-[24px] font-[600] ">
                 <a href="tel://1066">1066</a>{" "}
               </h1>
             </div>
-
-            <div className="flex items-center md:gap-[20px]">
+            <div className="">
+              <HiBars3
+                className="hidden md:flex text-[24px] text-white sm:text-[30px] xl:hidden p-[0] m-[0]"
+                onClick={handleOpenMenu}
+              />
+              </div>
+            <div className="hidden lg:flex items-center md:gap-[20px]">
               <a
                 href={download}
                 download={"presentation.pdf"}
                 className="download flex items-center text-white font-golos font-[600] sm:font-[400] sm:gap-[20px] xl:gap-[10px] hover:text-[#5181B8] transition-all duration-1000"
               >
                 <div className="downloadicon hidden sm:block">
-                  <GoDownload className="sm:text-[30px]" />
+                  <GoDownload className="sm:text-[24px] 2xl:text-[30px]" />
                 </div>
                 <div className="downloadText hidden sm:block">
-                  <p className=" text-[18px]">Taqdimot</p>
-                  <p className="hidden sm:flex text-[14px] ">
+                  <p className=" text-[14px] 2xl:text-[18px]">Taqdimot</p>
+                  <p className="flex text-[12px] text-[#C0C0C0]">
                     5.3mb yuklab olish
                   </p>
                 </div>

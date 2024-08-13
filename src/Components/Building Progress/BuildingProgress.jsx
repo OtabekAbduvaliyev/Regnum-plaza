@@ -44,7 +44,7 @@ const BuildingProgress = () => {
           </Carousel>
         </Modal>
       </div>
-      <div className="px-[10px] pt-[64px] sm:px-[30px] md:px-[40px] lg:px-[70px] 2xl:px-[100px]">
+      <div className="px-[10px] pt-[64px] max-w-[500px] px-[15px] sm:px-[0px] sm:max-w-[650px] md:max-w-[672px] lg:max-w-[1000px] xl:max-w-[1200px] 2xl:max-w-[1680px] m-auto">
         <div className="heading">
           <h1 className="text-[32px] font-[600] font-golos">
             Qurilish jarayoni
@@ -57,9 +57,9 @@ const BuildingProgress = () => {
               onClick={openModal}
               src={houseImg}
               alt=""
-              className="xl:max-w-[280px] 2xl:max-w-[400px] w-[100%] rounded-[16px] "
+              className="lg:w-[100%] lg:max-w-[290px] lg:h-[200px] 2xl:max-w-[400px] w-[100%] md:w-[150px] md:h-[120px] rounded-[16px] "
             />
-            <p className="text-[20px] font-[600] font-golos mt-[16px] xl:text-[18px] 2xl:text-[24px]">
+            <p className="text-[16px] font-[600] font-golos mt-[16px] xl:text-[18px] 2xl:text-[24px]">
               Iyun
             </p>
           </div>
@@ -68,9 +68,9 @@ const BuildingProgress = () => {
             onClick={openModal}
               src={houseImg2}
               alt=""
-              className="xl:max-w-[280px] 2xl:max-w-[400px] w-[100%] rounded-[16px]"
+              className="lg:w-[100%] lg:max-w-[290px] lg:h-[200px] 2xl:max-w-[400px] w-[100%] md:w-[150px] md:h-[120px] rounded-[16px]"
             />
-            <p className="text-[20px] font-[600] font-golos mt-[16px] xl:text-[18px] 2xl:text-[24px]">
+            <p className="text-[16px] font-[600] font-golos mt-[16px] xl:text-[18px] 2xl:text-[24px]">
               May
             </p>
           </div>
@@ -79,9 +79,9 @@ const BuildingProgress = () => {
             onClick={openModal}
               src={houseImg3}
               alt=""
-              className="xl:max-w-[280px] 2xl:max-w-[400px] w-[100%] rounded-[16px]"
+              className="lg:w-[100%] lg:max-w-[290px] lg:h-[200px] 2xl:max-w-[400px] w-[100%] md:w-[150px] md:h-[120px] rounded-[16px]"
             />
-            <p className="text-[20px] font-[600] font-golos mt-[16px] xl:text-[18px] 2xl:text-[24px]">
+            <p className="text-[16px] font-[600] font-golos mt-[16px] xl:text-[18px] 2xl:text-[24px]">
               Mart
             </p>
           </div>
@@ -90,9 +90,9 @@ const BuildingProgress = () => {
             onClick={openModal}
               src={houseImg4}
               alt=""
-              className="xl:max-w-[280px] 2xl:max-w-[400px] w-[100%] rounded-[16px]"
+              className="lg:w-[100%] lg:max-w-[290px] lg:h-[200px] 2xl:max-w-[400px] w-[100%] md:w-[150px] md:h-[120px] rounded-[16px]"
             />
-            <p className="text-[20px] font-[600] font-golos mt-[16px] xl:text-[18px] 2xl:text-[24px]">
+            <p className="text-[16px] font-[600] font-golos mt-[16px] xl:text-[18px] 2xl:text-[24px]">
               Aprel
             </p>
           </div>
