@@ -3,7 +3,6 @@ import logo from "../../assets/a42f8b875011fd92170ca9c4f297278f.png";
 import { TbPhoneCall, TbWorld } from "react-icons/tb";
 import { GoDownload } from "react-icons/go";
 import download from "../../Pdf/building typesList.pdf";
-import LanguageSelector from "../Language Selector/LanguageSelector";
 import { useTranslation } from "react-i18next";
 import { HiBars3, HiMiniBars3BottomLeft } from "react-icons/hi2";
 import { IoClose } from "react-icons/io5";
@@ -190,7 +189,7 @@ className={`navmenu navLinks z-[999] text-[14px] fixed bg-[#384D8B] xl:flex flex
         </div>
       </div>
       <div
-        className={`fixed navbar top-0 left-0 z-[998] w-[100%] bg-transparent xl:py-[8px] transition-all duration-500 ${
+        className={`fixed navbar top-0 left-0 z-[998] w-[100%] bg-transparent xl:py-[32px] transition-all duration-500 ${
           visible ? "translate-y-0" : "-translate-y-full"
         } ${
           !scroll

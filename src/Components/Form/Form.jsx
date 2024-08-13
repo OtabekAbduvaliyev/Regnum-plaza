@@ -9,7 +9,7 @@ const Form = () => {
   const messageText = `Name: ${message}\nPhone Number: ${phoneNumber}`;
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const token = "7358049875:AAHaRei9l_v6d95lI_qynvuOtGDFVr0pqLw";
+    const token = "7358049875:AAHaRi9l_v6d95lI_qynvuOtGDFVr0pqLw";
     const chatId = "6106205006";
 
     const url = `https://api.telegram.org/bot${token}/sendMessage`;
