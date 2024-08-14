@@ -6,7 +6,7 @@ const LocationOfBlocks = () => {
     setChange(!change);
   };
   return (
-    <div>
+    <div id="house">
 <div className="relative mx-auto">
   <div className="relative w-full pb-[56.25%] z-10  "> 
       <img

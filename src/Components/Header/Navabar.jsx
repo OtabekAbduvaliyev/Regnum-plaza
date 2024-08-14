@@ -58,7 +58,7 @@ className={`navmenu navLinks z-[999] text-[14px] fixed bg-[#384D8B] xl:flex flex
   openMenu ? "translate-x-0 animate-slideInLeft" : "-translate-x-full"
 }`}
         >
-          <div className="nav flex items-center justify-between px-[16px]">
+          <div className="nav flex items-center justify-between px-[16px] md:px-[58px]">
             <div className="menu">
               <HiMiniBars3BottomLeft className="text-[24px]" onClick={handleOpenMenu}/>
             </div>

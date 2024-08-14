@@ -3,8 +3,8 @@ import houseImg from "../../assets/5853a5176c1d3bb44f63edce609b526f.png";
 import archLogo from "../../assets/Frame 200.png";
 const ObjectArchitecture = () => {
   return (
-    <div className="m-auto max-w-[500px] px-[15px] sm:px-[0px]  pb-[64px] sm:max-w-[650px] md:max-w-[672px] lg:max-w-[1000px] xl:max-w-[1200px] 2xl:max-w-[1680px]">
-    <div className="flex flex-col-reverse  md:items-center md:pt-[40px] lg:pt-[0px]   md:flex-row md:gap-[40px] lg:gap-[70px]">
+    <div className="m-auto max-w-[500px] px-[15px]  sm:px-[0px]  pb-[64px] sm:max-w-[650px] md:max-w-[672px] lg:max-w-[1000px] xl:max-w-[1200px] 2xl:max-w-[1680px]">
+    <div className="flex flex-col-reverse  md:items-center 2xl:pt-[64px] md:pt-[40px] lg:pt-[0px]   md:flex-row md:gap-[40px] lg:gap-[70px]">
       <div className="ujeImg  w-[100%]">
         <img src={houseImg} alt="" className="w-[100%] 2xl:w-[828px] 2xl:h-[560px] 2xl:rounded-se-[280px] 2xl:rounded-[16px] rounded-se-[120px] md:rounded-se-[160px]  rounded-[12px] md:w-[308px] md:h-[308px] mt-[16px] md:mt-[0px]  lg:w-[600px] lg:h-[400px] lg:rounded-se-[200px]" />
         <div class="relative w-[100%] items-center max-w-[450px] h-[190px]  md:w-[276px] md:h-[136px] lg:w-[476px] lg:h-[186px] bg-white rounded-[16px] shadow-2xl mt-[-115px] ml-auto md:mr-auto md:ml-[17px] lg:ml-auto lg:mr-[39px] z-999 py-[16px] px-[24px] md:p-[16px] lg:px-[46px] lg:py-[30px] 2xl:w-[100%] 2xl:max-w-[647px] 2xl:h-[248px] 2xl:px-[56px] 2xl:mt-[-180px]">

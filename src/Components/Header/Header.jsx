@@ -4,7 +4,7 @@ import { TbWorld } from "react-icons/tb";
 import { TbPhoneCall } from "react-icons/tb";
 const Header = () => {
   return (
-    <div className="bgHeader flex flex-col justify-between" id="home">
+    <div className="bgHeader flex flex-col justify-between " id="home">
       <Navbar />
       <div>
         <header className="flex items-center md:items-end m-auto  pb-[50px]  justify-between 2xl:pb-[100px] px-[15px] sm:px-[0px]  max-w-[500px] sm:max-w-[650px] md:max-w-[672px] lg:max-w-[1000px] xl:max-w-[1200px] 2xl:max-w-[1680px] ">

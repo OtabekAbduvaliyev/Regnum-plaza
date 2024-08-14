@@ -45,7 +45,7 @@ const Architectular = () => {
               selectedIndex === 1
                 ? "bg-[#384D8B] text-white"
                 : "bg-transparent text-[#505050]"
-              } font-golos rounded-[32px] xl:py-[8px] 2xl:px-[24px] xl:text-[16px] 2xl:text-[24px] text-[#505050] font-[500]`}
+              } font-golos rounded-[32px] xl:py-[8px] 2xl:px-[24px] xl:text-[16px] 2xl:text-[24px] text-[#505050] font-[500] whitespace-nowrap`}
           >
             1 - xonali
           </button>
@@ -55,7 +55,7 @@ const Architectular = () => {
               selectedIndex === 2
                 ? "bg-[#384D8B] text-white"
                 : "bg-transparent text-[#505050]"
-              } font-golos rounded-[32px] xl:py-[8px] 2xl:px-[24px] xl:text-[16px] 2xl:text-[24px] text-[#505050] font-[500]`}
+              } font-golos rounded-[32px] xl:py-[8px] 2xl:px-[24px] xl:text-[16px] 2xl:text-[24px] text-[#505050] font-[500] whitespace-nowrap`}
               >
             2 - xonali
           </button>
@@ -65,7 +65,7 @@ const Architectular = () => {
               selectedIndex === 3
                 ? "bg-[#384D8B] text-white"
                 : "bg-transparent text-[#505050]"
-            } font-golos rounded-[32px] xl:py-[8px] 2xl:px-[24px] xl:text-[16px] 2xl:text-[24px] text-[#505050] font-[500]`}
+            } font-golos rounded-[32px] xl:py-[8px] 2xl:px-[24px] xl:text-[16px] 2xl:text-[24px] text-[#505050] font-[500] whitespace-nowrap`}
           >
             3 - xonali
           </button>
@@ -75,7 +75,7 @@ const Architectular = () => {
               selectedIndex === 4
                 ? "bg-[#384D8B] text-white"
                 : "bg-transparent text-[#505050]"
-            } font-golos rounded-[32px] xl:py-[8px] 2xl:px-[24px] xl:text-[16px] 2xl:text-[24px]  text-[#505050] font-[500]`}
+            } font-golos rounded-[32px] xl:py-[8px] 2xl:px-[24px] xl:text-[16px] 2xl:text-[24px]  text-[#505050] font-[500] whitespace-nowrap`}
           >
             4-xonali
           </button>
