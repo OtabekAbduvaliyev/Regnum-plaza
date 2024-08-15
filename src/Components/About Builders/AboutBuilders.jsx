@@ -39,7 +39,7 @@ const AboutBuilders = () => {
               </p>
             </div>
             <div className="number sm:mt-[0px]">
-              <h1 className="text-[#384D8B] text-[24px] lg:text-[32px]  xl:text-[48px] font-[600]">
+              <h1 className="text-[#384D8B] text-[24px] lg:text-[32px]  2xl:text-[48px] font-[600]">
                 <CountUp         scrollSpyOnce={true}
         enableScrollSpy={true} end={188430} duration={2} />+
                 m2
